@@ -1,1 +1,2 @@
 # landing-page
+In this landing page i will be demonstrating the web page development teqniques that i have learned so far with the odin project. I will be trying to replicate an image that they gave by sight. I will also be using git hub to track and save my progress.
