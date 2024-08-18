@@ -16,20 +16,35 @@ body {
     justify-content: space-between;
 }
 
-li ,
-a{
-    display: inline-block;
-    color: #e5e7eb;
-    /* margin-right: 20px; */
-}
-
 .links {
     margin-right: 20px;
+    color: #e5e7eb;
 }
 
+.logo-color {
+    color: #e5e7eb;
+}
+.links-layout {
+    display: inline-block;
+}
 
 .logo {
     margin-left: 20px;
     font-size: 24px;
     color: #f9faf8;
 }
+
+.section1 {
+    padding: 120px;
+    background-color: #1f2937;
+
+}
+.container2 {
+    display: flex;
+}
+
+
+.right-side {
+    background-color: grey;
+}
+
