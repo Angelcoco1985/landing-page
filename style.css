@@ -1,50 +1,10 @@
-* {
-    text-decoration: none;
-    list-style: none;
-}
-body {
-    margin: 0;
-    padding: 0;
-}
-.header {
-    background-color: #1f2937;
+.main-container {
+    display: block;
+    border: 4px solid rebeccapurple;
+    
 }
 
-.container1 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.box1, .box2, .box3, .box4 {
+    border: 4px solid gray;
+    height: 100px;
 }
-
-.links {
-    margin-right: 20px;
-    color: #e5e7eb;
-}
-
-.logo-color {
-    color: #e5e7eb;
-}
-.links-layout {
-    display: inline-block;
-}
-
-.logo {
-    margin-left: 20px;
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.section1 {
-    padding: 120px;
-    background-color: #1f2937;
-
-}
-.container2 {
-    display: flex;
-}
-
-
-.right-side {
-    background-color: grey;
-}
-
