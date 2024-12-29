@@ -16,7 +16,7 @@
 }
 
 .box1-1 {
-    border: 4px solid red;
+    /* border: 4px solid red; */
     height: 110px;
     width: 500px;
     display: flex;
@@ -24,14 +24,14 @@
     align-items: stretch;
 }
 .box1-1-1 {
-    border: 4px solid green;
+    /* border: 4px solid green; */
     /* height: 50px; */
     flex: 1;
     /* gap: 5px; */
 
 }
 .box1-1-2 {
-    border: 4px solid green;
+    /* border: 4px solid green; */
     /* height:50px; */
     flex: 1;
     background-color: #E5E7EB;
@@ -67,11 +67,42 @@
 }
 
 .box3-1 {
-    border: 4px solid yellow;
+    /* border: 4px solid yellow; */
     height: 110px;
     width: 500px;
     display: flex;
     flex-direction: column;
+}
+
+.box4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+.box4-1 {
+    /* border: 4px solid red; */
+    height: 85px;
+    width: 500px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.box4-1-1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    flex: 3;
+}
+
+.box4-1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .footer-text {
@@ -96,6 +127,9 @@
 
 .button1 {
     background-color: #3882F6;
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
 }
 
 .box2-text {
@@ -109,9 +143,31 @@
 
 .text1-box3 {
     font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .text2-box3 {
+    margin-top: 0;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.box4-text1 {
+    margin: 0;
+    color: #F9FAF8;
+    /* font-size: ; */
+    margin-left: 40px;
+}
+.box4-text2 {
+    margin: 0;
+    color: #F9FAF8;
+}
+
+.box4button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 5px;
+    border-style: groove;
 }
