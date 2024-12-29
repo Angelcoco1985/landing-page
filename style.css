@@ -105,8 +105,16 @@
     flex: 1;
 }
 
+.footer-box {
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
 .footer-text {
     justify-self: center;
+    color: white;
+    align-self: center;
 }
 
 
